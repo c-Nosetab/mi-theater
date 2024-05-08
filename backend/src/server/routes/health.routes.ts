@@ -9,7 +9,7 @@ const upDate = new Date();
 const health: RequestHandler = (req, res) => {
   res.status(200).send({
     status: 'up',
-    message: 'Kalpa on Node js, Express, PostgreSQL',
+    message: 'Mi-Theater on Node js, Express, PostgreSQL',
     upDate,
     version,
   });
