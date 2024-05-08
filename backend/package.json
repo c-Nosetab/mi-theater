@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=local npm run build",
+    "generate": "drizzle-kit generate:pg --config ./src/db/drizzle.config.ts",
     "build": "npm run prebuild && tsc-watch --onSuccess \"node dist/src/app.js\"",
     "start:prod": "npm run build:prod",
     "build:prod": "npm run prebuild && tsc && node dist/src/app.js",

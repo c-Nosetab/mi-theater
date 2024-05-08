@@ -25,7 +25,7 @@ import { badRequestHandler } from './server/middleware/badRequestHandler';
 import errorHandler from './server/middleware/errorHandler';
 import { CONTENT_TYPE } from './CONSTANTS';
 
-import { establishDBConnection } from './db/database';
+import { establishDBConnection } from './db';
 import generateTimeLog from './server/middleware/timeLogger';
 
 // #region * Settings
